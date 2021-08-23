@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.HistoryActivity">
+
+    <androidx.viewpager2.widget.ViewPager2
+        android:id="@+id/vp_history"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </androidx.viewpager2.widget.ViewPager2>
+
+    <com.example.chuculture.widget.IndicatorView
+        android:id="@+id/ind_history"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="28dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.527"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/img_ind_last"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:foreground="?attr/selectableItemBackground"
+        android:src="@drawable/ic_baseline_keyboard_arrow_left_24"
+        app:layout_constraintBottom_toBottomOf="@+id/ind_history"
+        app:layout_constraintEnd_toStartOf="@+id/ind_history"
+        app:layout_constraintTop_toTopOf="@+id/ind_history" />
+
+    <ImageView
+        android:id="@+id/img_ind_next"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:foreground="?attr/selectableItemBackground"
+
+        android:src="@drawable/ic_baseline_keyboard_arrow_right_24"
+        app:layout_constraintBottom_toBottomOf="@+id/ind_history"
+        app:layout_constraintStart_toEndOf="@+id/ind_history"
+        app:layout_constraintTop_toTopOf="@+id/ind_history" />
+
+    <Button
+        android:id="@+id/btn_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        android:text="@string/button_into"
+        android:foreground="?attr/selectableItemBackground"
+        android:background="@android:color/transparent"
+        app:layout_constraintBottom_toTopOf="@+id/ind_history"
+        app:layout_constraintEnd_toEndOf="@+id/ind_history"
+        app:layout_constraintStart_toStartOf="@+id/ind_history" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

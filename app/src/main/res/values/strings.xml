@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">ChuCulture</string>
+    <string name="image_text">图文</string>
+    <string name="video">视频</string>
+    <string name="hero">风流人物</string>
+    <string name="hero_name">屈原</string>
+    <string name="lyric">诗词</string>
+    <string name="hero_abstract">人物简介</string>
+    <string name="hero_lyric">长太息以掩涕兮，哀民生之多艰！</string>
+    <string name="relic">文物</string>
+    <string name="relic_name">文物名</string>
+    <string name="relic_desc">文物描述文物描述文物</string>
+    <string name="relic_detail">文物详情</string>
+    <string name="museum">博物馆</string>
+    <string name="museum_detail">博物馆详情</string>
+    <string name="museum_name">湖南省博物馆</string>
+    <string name="exhibition">展览</string>
+    <string name="button_into">更多</string>
+    <string name="enter_exhibition">进入展览</string>
+    <string name="cancel">取消</string>
+    <string name="year">年代 </string>
+    <string name="material">材质</string>
+    <string name="size">大小</string>
+    <string name="relative_image">相关图片</string>
+    <string name="relative_paper">相关论文</string>
+    <string name="abstract_1">简介</string>
+    <string name="abstract_2">考古发现</string>
+    <string name="abstract_3">相关</string>
+    <string name="museum_intro_1">简介</string>
+    <string name="museum_intro_2">大事记</string>
+    <string name="museum_intro_3">相关</string>
+    <string name="more">更多</string>
+    <string name="chu_culture">凤鸣</string>
+    <string name="lyric_relative">--屈原《离骚》</string>
+</resources>
