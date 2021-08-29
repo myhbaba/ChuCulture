@@ -13,7 +13,7 @@
         android:layout_height="match_parent">
 
 
-        <com.airbnb.lottie.LottieAnimationView
+        <androidx.constraintlayout.utils.widget.ImageFilterView
             android:id="@+id/lottie_launch_logo"
             android:layout_width="300dp"
             android:layout_height="300dp"
@@ -23,8 +23,8 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.3"
-            app:lottie_progress="0.5"
-            app:lottie_rawRes="@raw/launch" />
+            app:srcCompat="@drawable/ic_phoenix_framework"
+             />
 
         <LinearLayout
             android:id="@+id/ll_launch"

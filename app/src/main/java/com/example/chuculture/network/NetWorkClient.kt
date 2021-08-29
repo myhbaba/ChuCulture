@@ -12,7 +12,7 @@ import java.util.concurrent.TimeUnit
  */
 object NetWorkClient {
 
-    private const val BASE_URL="http://192.168.233.119:8080/"
+    private const val BASE_URL="http://rp.dianhsu.top:6060/"
     const val BASE_IMAGE_URL="${BASE_URL}chucultureImage/"
     const val BASE_VIDEO_URL="${BASE_URL}video/"
 

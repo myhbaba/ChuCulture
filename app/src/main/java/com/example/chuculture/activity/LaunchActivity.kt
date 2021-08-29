@@ -26,7 +26,6 @@ class LaunchActivity : AppCompatActivity() {
 
     private fun initView() {
         val tvLyric = findViewById<TextView>(R.id.tv_lyric)
-        val lottieLaunchLogo=findViewById<LottieAnimationView>(R.id.lottie_launch_logo)
         val lyric = LyricDataStore().generateLyric()
         lyric?.let {
             content = lyric.random()
@@ -34,7 +33,6 @@ class LaunchActivity : AppCompatActivity() {
         }
 
         counterTimer.start()
-        lottieLaunchLogo.playAnimation()
     }
 
     private val counterTimer=object :CountDownTimer(2000,100){
